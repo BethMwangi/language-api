@@ -23,7 +23,7 @@ docker-compose up --build
 The command will download all the required containers and start the application to access the application
 go to the browser on the url [http://localhost:5000](http://localhost:500)
 
-To Test the application run the below requests;
+To Test the application run the below requests in another terminal;
 
 ```
 curl -i  -X POST -H "Content-Type: application/json" -d '{"input": "My cat ate a mouse"}' http://localhost:5000/
