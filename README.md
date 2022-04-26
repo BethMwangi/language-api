@@ -11,7 +11,12 @@ A web service that returns the langauge code of a sentence passed to it
 
 To get started you need to have docker installed on Windows or Mac please follow this [link](https://www.docker.com/products/docker-desktop) 
 for Ubuntu use this [link](https://docs.docker.com/install/linux/docker-ce/ubuntu/). 
-Once downloaded clone the repository and `cd` into the repository and run the following command
+Once downloaded clone the repository and `cd` into the repository and 
+```
+cd language-api
+```
+run the following command
+
 ```docker
 docker-compose up --build
 ```
@@ -32,3 +37,6 @@ curl -i  -X POST -H "Content-Type: application/json" -d '{"input": "Startrek is 
 
 
 
+##Testcases 
+
+https://jmp.sh/MdL7x5i
